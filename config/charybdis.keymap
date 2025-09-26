@@ -47,7 +47,7 @@
 &kp LEFT_SHIFT    &kp A   &kp S   &kp D         &kp F         &kp G        &kp H             &kp J          &kp K      &kp L    &kp SEMI  &kp ENTER
 &kp LEFT_CONTROL  &kp Z   &kp X   &kp C         &kp V         &kp B        &kp N             &kp M          &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
                                   &kp LEFT_ALT  &kp LEFT_WIN  &kp SPACE    &kp SPACE         &kp RIGHT_WIN
-                                                &mo 2         &mo 1        &kp LC(UP_ARROW)
+                                                &lt 2 SPACE   &mo 1        &kp LC(UP_ARROW)
             >;
         };
 
