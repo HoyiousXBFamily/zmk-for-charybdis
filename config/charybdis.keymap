@@ -31,7 +31,7 @@
             label = "To2_macro";
             #binding-cells = <0>;
             bindings =
-                <&to 3>,
+                <&to 2>,
                 <&macro_wait_time 30>,
                 <&rgb_ug RGB_COLOR_HSB(250,100,50)>;
         };
@@ -47,7 +47,7 @@
 &kp LEFT_SHIFT    &kp A   &kp S   &kp D         &kp F         &kp G        &kp H             &kp J          &kp K      &kp L    &kp SEMI  &kp ENTER
 &kp LEFT_CONTROL  &kp Z   &kp X   &kp C         &kp V         &kp B        &kp N             &kp M          &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
                                   &kp LEFT_ALT  &kp LEFT_WIN  &kp SPACE    &kp SPACE         &kp RIGHT_WIN
-                                                &lt 2 SPACE   &mo 1        &kp LC(UP_ARROW)
+                                                &mo 3         &mo 1        &kp LC(UP_ARROW)
             >;
         };
 
@@ -62,17 +62,6 @@
             >;
         };
 
-        scroll-layers {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans
-                                &trans  &trans    &trans
-            >;
-        };
-
         BT_layers {
             bindings = <
 &trans  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans      &trans  &trans  &trans  &trans  &trans
@@ -81,6 +70,17 @@
 &trans  &trans          &trans        &bt BT_CLR    &trans        &trans          &bt BT_NXT  &trans  &trans  &trans  &trans  &trans
                                       &trans        &trans        &trans          &trans      &trans
                                                     &trans        &trans          &trans
+            >;
+        };
+
+        scroll-layers {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans
+                                &trans  &trans    &trans
             >;
         };
 
